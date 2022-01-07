@@ -1,0 +1,18 @@
+body{
+  background: url('../img/background-image-1.jpeg');
+  background-repeat: repeat;
+  background-size: 100%;
+}
+/* ----------- Tablet ----------- */
+@media (min-width: 768px) {
+	body {
+    background: url('../img/background-2.png');
+  }
+}
+
+/* ----------- Desktop----------- */
+@media (min-width: 1200px) {
+  body{
+    background: url('../img/background-3.png');
+  }
+}
